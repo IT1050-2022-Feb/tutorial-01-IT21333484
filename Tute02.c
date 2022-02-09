@@ -21,18 +21,19 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 int main() {
 
   float distance,amount;
+  int i;
 
-for (int i=0;i<1;i++){
-  //INPUTS
-    printf("The distance travelled in km : ");
-    scanf("%f",&distance);
+  for (i=0;i<1;i++){
+    //INPUTS
+      printf("The distance travelled in km : ");
+      scanf("%f",&distance);
     
-    //VALIDATION
-    if (distance<0){
-      printf("Distance you enteredis wrong, please try again\n");
-      i--;
+      //VALIDATION
+      if (distance<0){
+        printf("Distance you enteredis wrong, please try again\n");
+        i--;
+      }
     }
-  }
 
   //CALCULATION
   if (distance<=30){

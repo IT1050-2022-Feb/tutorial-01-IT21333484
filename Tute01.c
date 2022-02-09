@@ -7,9 +7,10 @@
 int main() {
 
   float marks,sum = 0,avg;
+  int i;
 
  // INPUTS
-  for (int i=0;i<2;i++){
+  for (i=0;i<2;i++){
     printf("Marks of subject %d : ",i+1);
     scanf("%f",&marks);
 
